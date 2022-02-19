@@ -7,20 +7,23 @@
 .body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 .page-header {
   background-color: #ffffff;
 }
 .logo {
   color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 31px;
   text-decoration: none;
   font-weight: 700;
 }
 .logo:hover,
 :focus {
   color: var(--accent-color);
+  background-color: inherit;
 }
 .nav-link:hover {
   background-color: inherit;
@@ -61,6 +64,9 @@
 .footer {
   background-color: #2f303a;
 }
+
+/*common styles*/
+
 a {
   text-decoration: none;
   cursor: default;
