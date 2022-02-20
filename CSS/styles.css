@@ -65,6 +65,7 @@
 }
 .address {
   color: #ffffff;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -95,11 +96,27 @@
   background-color: #ffffff;
   color: var(--accent-color);
 }
+.section-subheader {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 .text {
   font-size: 14px;
   line-height: 1.7;
 }
+.work-scope {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+}
 .team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
   background-color: #f5f4fa;
 }
 .section-subtitle {
@@ -108,21 +125,27 @@
   line-height: 1.19;
   text-align: center;
 }
-.section.team,
-.section.work-scope {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
+
 .job-title {
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
+.nav-list-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
 
 .footer {
   background-color: #2f303a;
+}
+.white {
+  color: #ffffff;
 }
 
 /*common styles*/
