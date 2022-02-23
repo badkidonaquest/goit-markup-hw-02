@@ -6,75 +6,39 @@
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 }
-
-.page-header {
-  background-color: #ffffff;
-}
-
 .logo {
-  color: var(--secondary-text-color);
-  font-family: var(--secondary-font);
-  font-style: normal;
+  font-family: var(--secondary-font), sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  text-decoration: none;
+  color: var(--accent-color);
 }
 .logo:hover,
 :focus {
   color: var(--accent-color);
-  background-color: inherit;
 }
-.blue-part {
-  color: var(--accent-color);
+.black-logo {
+  color: var(--secondary-text-color);
 }
-.nav-link:hover {
-  background-color: inherit;
-}
+
 .nav-link {
-  color: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
-.nav-list {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-}
-.item-name {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-.item-type {
-  font-size: 16px;
-  line-height: 1.9;
-}
+
 .contacts-item {
-  color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
-.contacts-item:hover {
-  background-color: inherit;
-}
-.address {
-  color: #ffffff;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-}
-.address-item {
-  color: rgba(255, 255, 255, 0.6);
-}
+
 .hero {
   background-color: #2f303a;
-  color: #ffffff;
 }
 .hero-title {
   font-weight: 900;
@@ -83,56 +47,74 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
-.hero-button {
-  background-color: var(--accent-color);
   color: #ffffff;
-  font-weight: 700;
+}
+
+.hero-button {
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
-.hero-button:hover {
-  background-color: #ffffff;
-  color: var(--accent-color);
-}
+
 .section-subheader {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  color: var(--secondary-text-color);
 }
+
 .text {
   font-size: 14px;
   line-height: 1.7;
 }
-.work-scope {
+.section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.7;
+  line-height: 1.17;
   text-align: center;
+  color: var(--secondary-text-color);
 }
-.team {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center;
-  background-color: #f5f4fa;
-}
+
 .section-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  color: var(--secondary-text-color);
 }
 
 .job-title {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  color: var(--primary-text-color);
 }
-.nav-list-btn {
+
+.footer {
+  background-color: #2f303a;
+}
+
+.white-logo {
+  color: #ffffff;
+}
+
+.address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.address-item {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list-btn {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -141,40 +123,52 @@
   color: var(--secondary-text-color);
 }
 
-.footer {
-  background-color: #2f303a;
-}
-.white {
-  color: #ffffff;
-}
-
-/*common styles*/
-
-body {
-  font-family: var(--main-font);
-  background-color: var(--primary-background-color);
+.item-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--secondary-text-color);
 }
+
+.item-type {
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+/* Common styles */
+
+body {
+  font-family: var(--main-font), sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
 a {
   text-decoration: none;
-  cursor: default;
 }
+
 a:hover,
 :focus {
   color: var(--accent-color);
+  background-color: inherit;
 }
-p {
-  color: var(--primary-text-color);
+
+button {
+  cursor: pointer;
 }
+
 button:hover,
 :focus {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-button {
-  cursor: pointer;
-}
 
 ul {
   list-style: none;
+}
+
+span:hover,
+:focus {
+  color: var(--accent-color);
 }
