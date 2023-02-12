@@ -1,0 +1,33 @@
+:root {
+    --primary-text-color: #434455;
+    --secondary-text-color: #2E2F42;
+    --accent: #4D5AE5;
+    --primary-background-color: #E5E5E5;
+    --secondary-background-color: #2E2F42;
+}
+
+.body {background-color: var(--primary-background-color)  color
+var(--primary-text-color)}
+.list {list-style: none;}
+
+.logo {text-transform: capitalize;}
+
+/* site nav */
+
+.site-nav .link {color: var(--secondary-text-color)}
+.site-nav .link:hover, .site-nav .link:focus {color: var(--accent)}
+
+/* section */
+
+.hero {background-color: var(--secondary-background-color)}
+.hero-title { color: #FFFFFF}
+
+.section-title {color: var(--secondary-background-color)}
+
+/* features */
+
+.feature-list .title {color: var(--secondary-text-color)}
+
+/* team */
+
+.section .team-list {}
