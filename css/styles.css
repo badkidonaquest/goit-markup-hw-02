@@ -11,6 +11,8 @@ var(--primary-text-color)}
 .list {list-style: none;}
 
 .logo {text-transform: capitalize;}
+.logo-purple {color: var(--accent);}
+.logo-white {color: var(--secondary-text-color);}
 
 /* site nav */
 
@@ -30,4 +32,4 @@ var(--primary-text-color)}
 
 /* team */
 
-.section .team-list {}
+/* .section .team-list {} */
