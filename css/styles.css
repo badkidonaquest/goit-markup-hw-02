@@ -60,7 +60,6 @@ body {
 }
 
 .address {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   font-style: normal;
@@ -72,7 +71,6 @@ body {
 }
 
 .contact {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -104,6 +102,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: var(--accent);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -138,7 +137,6 @@ body {
 }
 
 .text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -171,7 +169,6 @@ body {
 }
 
 .item-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -183,7 +180,6 @@ body {
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -203,6 +199,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--accent);
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
@@ -232,7 +229,6 @@ body {
 }
 
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
